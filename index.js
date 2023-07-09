@@ -19,7 +19,7 @@ app.get(`/`, (req, res) => {
   //Data to send to client => res
   res.send({
     status: 200,
-    message: "Working!",
+    message: "todo backend run!",
     data: [],
   });
 });
